@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 5</title>
+</head>
+<body>
+    <h1>Información sobre el producto</h1>
+    <form action="https://www.w3schools.com/action_page.php">
+        <fieldset>
+            <legend>Datos Básicos</legend>
+            <label for="Nombre">Nombre</label>
+            <br>
+            <input type="text" name="nombre" id="nombre" maxlength="110" size="110">
+            <br>
+            <label for="Descripción">Descripción</label>
+            <br>
+            <textarea id="desc" name="desc" cols="100" rows="20"></textarea>
+            <br>
+            <label for="foto">Foto</label>
+            <input type="file" name="foto" id="foto">
+            <br>
+            <input type="checkbox" name="novedades" id="novedades">
+            <label for="novedades">Añadir contador de visitas</label>
+        </fieldset>
+        <fieldset>
+            <legend>Datos económicos</legend>
+            <label for="Precio">Precio</label>
+            <input type="text" name="Dinero" id="Dinero" maxlength="10" size="10">
+            <label for="€">€</label>
+            <label for="Imp.">Impuestos</label>
+            <select name="Imp." id="Imp.">
+                <option value="4%"selected>4%</option>
+                <option value="5%">5%</option>
+            </select>
+            <p>Promoción</p>
+            <input type="radio" name="Promoción" id="Nombre" checked="checked" value="Ninguna">
+            <label for="Ninguna"selected>Ninguna</label>
+            <br>
+            <input type="radio" name="Promoción" id="Nombre" value="Trans. Gratis">
+            <label for="Trans. Gratis">Transport gratis</label>
+            <br>
+            <input type="radio" name="Promoción" id="Nombre" value="Descuento">
+            <label for="Descuento">Descuento 5%</label>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

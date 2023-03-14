@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgoldenrod;
+    color: black;
+    font-family: Fantasy;
+    margin-left: 0%;
+    margin-right: 0;
+}
+
+a:any-link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#logo {
+    display: block;
+    margin-left: 41.5vw;
+}
+
+#menus {
+    background-color: goldenrod;
+}
+
+#menus ul {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#menus ul li {
+    list-style-type: none;
+    display: inline-block;
+    border: 5px ridge red;
+    background-color: maroon;
+    margin-left: 1%;
+    margin-right: 3%;
+    padding: 20px;
+    width: 11vw;
+    text-align: center;
+}
+
+#submenus {
+    background-color: goldenrod;
+}
+
+#submenus ul {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#submenus ul li {
+    list-style-type: none;
+    display: inline-block;
+    border: 5px ridge red;
+    background-color: maroon;
+    margin-left: 1%;
+    margin-right: 3%;
+    padding: 20px;
+    width: 11vw;
+    text-align: center;
+}
+
+.panel_0 h1 {
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.panel_1 #resumen{
+    text-align: center;
+    line-height: 0.3;
+    font-size: 17px;
+}
+
+.panel_1{
+    text-align: center;
+}
+
+.panel_1 h1 {
+    text-align: center;
+}
+
+.panel_2{
+    text-align: center;
+}
+
+.panel_2 h1{
+    text-align: center;
+}
+
+.panel_2 #big{
+    text-align: center;
+    font-size: 20px;
+    line-height: 0.3;
+}
+
+.panel_2 #small{
+    text-align: center;
+    line-height: 0.3;
+}
+
+.panel_2 #little{
+    text-align: center;
+    line-height: 0.3;
+    font-size: 12px;
+}
+
+.panel_1 h2{
+    text-align: center;
+}
+.panel_1 #resumen p{
+    text-align: center;
+}
+
+.panel_1 #lyoko{
+    text-align: center;
+    background-color: goldenrod;
+}
+
+.panel_1 #buho{
+    text-align: center;
+    background-color: goldenrod;
+}
+
+.panel_1 #transformers{
+    text-align: center;
+    background-color: goldenrod;
+}
+
+.panel_1 #contacto {
+    background-color: goldenrod;
+    column-count: 2;
+}
+
+.panel_1 #contacto p {
+    margin-left: 110px;
+    font-size: 25px;
+    margin-bottom: 0%;
+    margin-left: 12%;
+}
+
+.panel_1 #contacto a {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+
+.panel_3{
+    font-family:'MedievalSharp';
+    text-align: center;
+}
+
+.panel_3 #small {
+    text-align: center;
+    line-height: 0.3;
+}
+
+.panel_3 #little{
+    text-align: center;
+    line-height: 0.3;
+    font-size: 12px;
+}
+
+.panel_4{
+    background-color: goldenrod;
+}
+
+h2{
+    text-align: center;
+}
+
+.panel_5{
+    box-sizing: border-box;
+    padding: 16px;
+    text-align: center;
+}
+
+.panel_5 b{
+    font-size: 20px;
+}
+
+input{
+    width:15%;
+    margin: 10px 0 20px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(238, 188, 62);
+}
+
+hr {
+    border: 2px solid #7e0000;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: goldenrod;
+    color: black;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 1;
+}
+
+.thanks {
+    text-align: center;
+}
+.thanks p{
+    line-height: 0.2;
+}
+.thanks #one{
+    font-size: 50px;
+}
+
+.thanks #two{
+    font-size: 15px;
+}
+
+.ima{
+    float: left;
+    margin-top: 2%;
+}
+
+.imi{
+    float: right;
+    margin-top: 2%;
+}
+
+.ref{
+    background-color: goldenrod;
+    text-align: right;
+    line-height: 0.3;
+}
+
+iframe{
+    margin-left: 2%;
+    margin-top: 2.5%;
+}
+
+.cont{
+    float: right;
+    text-align: left;
+    margin-top: 5%;
+    margin-right: 500px;
+    font-size: 20px;
+}
+
+.cont ul{
+    list-style-type: none;
+}

@@ -1,0 +1,82 @@
+#fondo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/249/671/776/red-rising-sun-sun-white-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -10;
+}
+
+h1{
+    font-family: "Permanent Marker";
+    text-align: center;
+    color: red;
+}
+
+img {
+    float: right;
+    border-radius: 80px;
+    border: 5px solid red;
+}
+
+
+h2{
+    font-family: "Permanent Marker";
+    color: green;
+}
+
+p{
+    font-family: "Covered By Your Grace";
+    color: blue;
+}
+
+h3{
+    font-family: "Permanent Marker";
+    color: yellow;
+}
+
+ul.film {
+    list-style-image: url(https://raw.githubusercontent.com/yisus82/liceo-lmsxi-html-css/main/CSS/Ejemplo03/img/film.png);
+}
+
+ul li a{
+    font-family: "Covered By Your Grace";
+    color: blue;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, caption{
+    border-style: dashed;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;
+}
+
+table th{
+    border: 4px solid black;
+}
+
+table, tbody{
+    border: 4px solid black;
+}
+
+table, th, td {
+    font-family: "Covered By Your Grace";
+    border: solid black;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
+
+tr:nth-child(odd){
+    background-color: lightgray;
+}
